@@ -116,9 +116,9 @@ class EthereumTransactionManager {
 func performTransaction() async {
     do {
         let manager = EthereumTransactionManager(
-            privateKey: "1d810943752a2b2f85280a6149da40361600cae79789492431efc4ddf30630b5",
-            fromAddress: "0x5de2Aaf0F05460778A596C41426099eFc7fcA5e6", // Your address
-            contractAddress: "0xdAC17F958D2ee523a2206206994597C13D831ec7", // USDT contract address
+            privateKey: "da40361600cae79789",
+            fromAddress: "0x5de2Aa", // Your address
+            contractAddress: "m", // USDT contract address
             alchemyAPIKey: "fCcebZAowkk2-mwAqVFSNi-soow3_pk-"
         )
         
